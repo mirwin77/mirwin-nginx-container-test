@@ -9,7 +9,7 @@
 <p>I have defined a password in the Jenkins build project and passed it into the container</p>
 <?php
 
-	$f = fopen("/password", "r");
+	$f = fopen("password", "r");
 
 	// Read line from the text file and write the contents to the client
 	echo fgets($f); 
