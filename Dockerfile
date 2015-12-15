@@ -2,7 +2,7 @@ FROM nginx
 
 COPY ./skel /
 
-RUN apt-get update && apt-get install -y php5
+RUN apt-get update
     
 RUN chmod +x init.sh
 
