@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/rhscl/nginx-16-rhel7
+FROM nginx
 
 COPY ./skel /
 
