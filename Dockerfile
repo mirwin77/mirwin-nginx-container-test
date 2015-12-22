@@ -2,7 +2,7 @@ FROM nginx
 
 COPY ./skel /
 
-RUN yum -y update
+RUN apt-get update
     
 RUN chmod +x init.sh
 
