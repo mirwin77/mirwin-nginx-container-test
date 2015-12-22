@@ -1,4 +1,4 @@
-FROM rhel7-nginx:1.9.2
+FROM rhel7-nginx
 
 COPY ./skel /
 
