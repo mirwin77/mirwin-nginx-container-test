@@ -1,8 +1,8 @@
-FROM nginx
+FROM rhel7-nginx:1.9.2
 
 COPY ./skel /
 
-RUN apt-get update
+RUN yum -y update
     
 RUN chmod +x init.sh
 
